@@ -14,7 +14,7 @@
 
       }
 
-      #textbox {
+      .textbox {
         font-family: "Roboto", sans-serif;
         line-height: 1.5em;
         color: white;
@@ -25,29 +25,39 @@
         margin: 6% 9% 0 0;
       }
 
-      #textbox .first {
+      .textbox .first {
         text-indent: 0;
       }
 
-      #textbox div {
+      .textbox div {
         text-indent: 1em;
         text-align:justify;
       }
 
       @media (max-width: 740px) {
-        #textbox{
+        .textbox{
           width: 80%;
-            float: none !important;
-            margin: 12% auto 0;
+          float: none !important;
+          margin: 12% auto 0;
+        }
+
+        #main-text {
+          padding-bottom: 50px;
         }
       }
+
       @media (max-width: 470px) {
         body, html {
           height: auto;
         }
+
+        #main-text {
+          padding-bottom: 50px;
+        }
       }
+
       @media (max-height: 740px) {
-        #textbox{
+        .textbox{
             margin-top: 1%;
         }
         body, html {
@@ -55,7 +65,7 @@
         }
       }
 
-      #textbox h1 {
+      .textbox h1 {
         text-align: center;
         font-weight: 100;
         color: #fdfdff;
@@ -68,29 +78,37 @@
         font-weight:bolder;
       }
 
-      #textbox a {
+      .textbox a {
         display: block;
         float: right;
       }
     </style>
   </head>
   <body >
-    <div id="textbox">
+    <div class="textbox" id="main-text">
       <h1 id="title">KO<span class="bold">L</span>LEK<span class="bold">T</span>ÍV ALTE<span class="bold">R</span>NATÍV ZENEMŰHELY</h1>
       <div class="first">
-      A Kollektív Alternatív Zeneműhely 2008-ban indult néhány művészeti és pedagógiai pályán mozgó fiatal kezdeményezésére. Céljuk a zenetanítás új alapokról való megközelítése volt. A Kollektív a zenét messze többnek gondolja művészeti formánál vagy 'az önkifejezés lehetőségénél'. A zene elsősorban eszköz a kommunikációhoz, a kapcsolatteremtéshez, a személyiségfejlesztéshez.
+      A Zeneműhely 2008 óta működik fiatal művészek, pedagógusok, zeneterapeuták közös munkája révén. Célunk új alternatívát nyújtani a zenetanításban. A Kollektív a zenét messze többnek gondolja művészeti formánál vagy 'az önkifejezés lehetőségénél'. A zene a mi megközelítésünkben eszköz a kommunikációhoz, a kapcsolatteremtéshez, a közösségépítéshez, a személyiségfejlesztéshez.
       </div>
 
      <div>
-      A Kollektív immár mintegy ötven, általános és középiskolás korú gyerek és fiatal zenei nevelésével foglalkozik, akik nem a 'bevett módszerekkel', a zeneelmélet és a kották útvesztőjében kerülnek közelebb a zenéhez, hanem a zenei nyelv sokrétű és intenzív használata révén: mindannyian gitároznak, basszusgitároznak vagy épp dobolnak, de emellett együttesekbe tömörülnek, dalokat írnak, stúdiófelvételeket, videóklippeket készítenek és koncerteken lépnek fel, a Zeneműhely vezetőinek koordinálásával.
+      Az általunk kidolgozott Kollektív Módszer alapján jelenleg mintegy ötven, általános és középiskolás korú gyerek és fiatal zenei nevelésével foglalkozunk. Ők nem a bevett stratégiák mentén, a zeneelmélet és a kották útvesztőjében kerülnek közelebb a zenéhez, hanem a zenei nyelv változatos és intenzív használata révén: mindannyian gitározni, basszusgitározni vagy épp dobolni tanulnak, de emellett együttesekbe tömörülnek, dalokat írnak, stúdiófelvételeket, videóklippeket készítenek és koncerteken lépnek fel, a Zeneműhely vezetőinek koordinálásával.
      </div>
   
       <div>
-      A gyerekeknek lehetőségük van a saját 'civil' és művészeti énjük feltérképezésére, felépítésére, és egy olyan viszonyulás kialakítására a zenével, amely remélhetőleg egész életükre meghatározó része lesz a személyiségüknek.
+      A gyerekeknek így lehetőségük van a saját 'civil' és művészeti énjük feltérképezésére, felépítésére, az alkotó jellegű bekapcsolódásra egy sokszínű közösségbe, valamint egy olyan viszonyulás kialakítására a zenével, amely egész életükben meghatározó része marad a személyiségüknek.
+      </div>
+
+      <div>
+        Programjainkról átfogó képet szerezhettek Facebook- és Youtube-felületünkön.
       </div>
 
       <a href="https://www.youtube.com/kollektivband" target="_blank"><img stlye="display:block;float:right" src="images/youtube.png" width="40" height="40"/></a>
       <a href="https://www.facebook.com/kollektivalternativ?ref=br_tf" target="_blank" ><img stlye="display:block;float:right" src="images/facebook.png" width="40" height="40"/></a>
+    </div>
+
+    <div class="textbox">
+      Kontakt: +36305540638 +36205413553 kollektivzenemuhely@kollektivzenemuhely.com
     </div>
   </body>
 </html>
